@@ -1,49 +1,0 @@
-8
-
-dir
-5241
-https://kroidproject.svn.sourceforge.net/svnroot/kroidproject/xFox_deploy/src/com/aura/deploy/swing
-https://kroidproject.svn.sourceforge.net/svnroot/kroidproject
-
-
-
-2013-03-27T10:27:17.472540Z
-5240
-ktrn42
-
-
-svn:special svn:externals svn:needs-lock
-
-
-
-
-
-
-
-
-
-
-
-7537328a-2daf-46a0-9268-e1fd7e6b2b6c
-
-panel
-dir
-
-AbstractDeployPanel.java
-file
-
-
-
-
-2013-03-27T09:59:16.053080Z
-6a909ed9d6951a01d0556fff31f47f39
-2013-03-27T10:27:17.472540Z
-5240
-ktrn42
-
-validation
-dir
-
-views
-dir
-
