@@ -1,0 +1,67 @@
+8
+
+dir
+5241
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject/xFox_deploy/src/com/aura/deploy/engine
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject
+
+
+
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7537328a-2daf-46a0-9268-e1fd7e6b2b6c
+
+DeployGUI.java
+file
+
+
+
+
+2013-03-27T09:06:59.809172Z
+3f6f6eedf1f5324ec2eb54b46a78d0a8
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+
+DeployEngine.java
+file
+
+
+
+
+2013-03-22T14:55:16.791195Z
+9df962de127261c9981493f67c6c01c4
+2013-03-22T15:03:37.209025Z
+5202
+ktrn42
+
+image
+dir
+
+DeployScreen.java
+file
+
+
+
+
+2013-03-21T10:47:32.730047Z
+a4c321ec9e62d536c022fe6e397f93c1
+2013-03-08T14:23:48.405012Z
+4974
+ktrn42
+

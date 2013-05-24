@@ -1,0 +1,42 @@
+8
+
+dir
+5241
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject/xFox_deploy/ress/ui
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject
+
+
+
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+
+
+svn:special svn:externals svn:needs-lock
+
+frame_bg.png
+file
+
+
+
+
+2013-03-27T10:22:50.336701Z
+76df48c328af8b1ac2f98bbf5ed05a81
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+has-props
+
+frame_icon.png
+file
+
+
+
+
+2013-03-27T09:12:46.446906Z
+34820cacd28a0e5ad072240e2bf067bc
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+has-props
+

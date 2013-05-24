@@ -1,0 +1,52 @@
+8
+
+dir
+5241
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject/xFox_deploy/src/com/aura/deploy/engine/image
+https://kroidproject.svn.sourceforge.net/svnroot/kroidproject
+
+
+
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+7537328a-2daf-46a0-9268-e1fd7e6b2b6c
+
+FrameImageCE.java
+file
+
+
+
+
+2013-03-26T10:41:33.912720Z
+9178c59240031166ea4dce7bfea0ca82
+2013-03-26T10:46:55.441175Z
+5235
+ktrn42
+
+FrameImageCM.java
+file
+
+
+
+
+2013-03-27T09:14:00.380147Z
+c01a8e085b82b2ad913e47ffbea47288
+2013-03-27T09:31:17.453231Z
+5239
+ktrn42
+

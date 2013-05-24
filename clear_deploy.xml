@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="clear_deploy" name="Nettoyage du répertoire 'src_deploy'.">
+    <target name="clear_deploy">
+    	<delete file="C:/src_deploy/client.jar"/>
+    	<delete file="C:/src_deploy/client_cmd.bat"/>
+    	
+    	<delete file="C:/src_deploy/server.jar"/>
+    	<delete file="C:/src_deploy/server_cmd.bat"/>
+    		
+    	<delete dir="C:/src_deploy/ress"/>
+    	<delete dir="C:/src_deploy/lib"/>
+    </target>
+</project>

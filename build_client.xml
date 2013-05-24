@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project xFox_deploy with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+    	
+        <jar destfile="C:/src_deploy/client.jar">
+            <manifest>
+                <attribute name="Main-Class" value="com.aura.deploy.DeployWindowClient"/>
+                <attribute name="Class-Path" value=". 
+                	lib/swingx.jar 				lib/xFox_noyau.jar 
+                	lib/ebean-2.7.3.jar 		lib/google-guava.jar 
+                	lib/jline-1.0.jar 			lib/jpa.jar 
+                	lib/snakeyaml-1.9.jar 		lib/sqlitejdbc-v056.jar 
+                	lib/xFox_plugin_engine.jar 	lib/commons-lang3-3.1.jar 
+                	lib/xFox_plugin_chat.jar 	lib/looks-2.1.4.jar"/>
+            </manifest>
+            <fileset dir="./bin"/>
+        </jar>
+    	
+       	<mkdir dir="C:/src_deploy/ress"/>
+        	<mkdir dir="C:/src_deploy/ress/cfg"/>
+    		<mkdir dir="C:/src_deploy/ress/i18n"/>
+        	<mkdir dir="C:/src_deploy/ress/db"/>
+        	<mkdir dir="C:/src_deploy/ress/log"/>
+        	<mkdir dir="C:/src_deploy/ress/material"/>
+    		<mkdir dir="C:/src_deploy/ress/ui"/>
+        
+   		<copy file="./ress/i18n/fr.properties" todir="C:/src_deploy/ress/i18n"/>
+    	
+       	<copy file="./ress/material/lq_entity_base.png" todir="C:/src_deploy/ress/material"/>
+      	<copy file="./ress/material/lq_ground_base.png" todir="C:/src_deploy/ress/material"/>
+       	<copy file="./ress/material/md_entity_base.png" todir="C:/src_deploy/ress/material"/>
+       	<copy file="./ress/material/md_ground_base.png" todir="C:/src_deploy/ress/material"/>
+       	<copy file="./ress/material/hq_entity_base.png" todir="C:/src_deploy/ress/material"/>
+       	<copy file="./ress/material/hq_ground_base.png" todir="C:/src_deploy/ress/material"/>
+    	
+   		<copy file="./ress/ui/frame_icon.png" todir="C:/src_deploy/ress/ui"/>
+   	    <copy file="./ress/ui/frame_bg.png" todir="C:/src_deploy/ress/ui"/>
+        
+       	<mkdir dir="C:/src_deploy/lib"/>          
+        	<copy file="C:/src_lib/swingx.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/looks-2.1.4.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/xFox_noyau.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/ebean-2.7.3.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/google-guava.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/jline-1.0.jar" todir="C:/src_deploy/lib"/>
+       	 	<copy file="C:/src_lib/jpa.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/snakeyaml-1.9.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/sqlitejdbc-v056.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/commons-lang3-3.1.jar" todir="C:/src_deploy/lib"/>
+        	
+        	<copy file="C:/src_lib/xFox_plugin_engine.jar" todir="C:/src_deploy/lib"/>
+        	<copy file="C:/src_lib/xFox_plugin_chat.jar" todir="C:/src_deploy/lib"/>
+    	
+    	<copy file="client_cmd.bat" todir="C:/src_deploy"/>
+    	
+    </target>
+</project>
